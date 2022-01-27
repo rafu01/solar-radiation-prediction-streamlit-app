@@ -1,0 +1,4 @@
+Solar Radiation prediction using classical regressor and neural network
+webapp built using Streamlit
+<img src="/images/1.png">
+<img src="/images/2.png">
