@@ -1,8 +1,6 @@
 # Nayeem Rafsan 24-01-2022
-from turtle import width
-from wsgiref import validate
+
 from sklearn.model_selection import train_test_split
-from sklearn import datasets, preprocessing, linear_model
 import pytz
 from pytz import timezone
 from datetime import datetime
@@ -25,13 +23,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import ExtraTreesRegressor
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, LSTM, Bidirectional
-from sklearn.preprocessing import MinMaxScaler
+from keras.layers import Dense, Dropout, LSTM
 from keras.layers import BatchNormalization
 from tqdm.keras import TqdmCallback
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras import layers
 
 st.set_page_config(
     page_title="Solar Radiation prediction",
